@@ -1,3 +1,7 @@
-.label {
+.booking__title {
     display: block;
+}
+
+.booking__title-inline {
+    display: inline-block;
 }

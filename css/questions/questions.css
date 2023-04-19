@@ -1,4 +1,4 @@
-.questions-list__item {
+.questions__item {
     background-color: #fff;
     color: #1C1A1A;
     font-weight: 700;
@@ -8,16 +8,16 @@
     list-style-type: none;
 }
 
-.questions-list__item:last-child {
+.questions__item:last-child {
     margin-bottom: 0;
 }
 
-.questions-list__item:nth-child(odd) {
+.questions__item:nth-child(odd) {
     color: white;
     background-color: #440F51;
 }
 
-.questions-list__item:nth-child(odd)::after {
+.questions__item:nth-child(odd)::after {
     content: "";
     background-image: url("icons/open.svg");
     background-size: contain; 
@@ -27,7 +27,7 @@
     background-repeat: no-repeat;
 }
 
-.questions-list__item:nth-child(even)::after {
+.questions__item:nth-child(even)::after {
     content: "";
     background-image: url("icons/open-purple.svg");
     background-size: contain; 
